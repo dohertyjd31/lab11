@@ -6,6 +6,8 @@ function fibonacciNumber = fiboRecursive(n)
         fibonacciNumber = 2;
     else
         count = count + 1;
-        fibonacciNumber = fiboRecursive(n - 2) + fiborecursive(n - 1);
+        fibonacciNumber = fiboRecursive(n - 2) + fiboRecursive(n - 1);
     end
 end
+
+I think this is where im supposed to type something
